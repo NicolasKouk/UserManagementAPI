@@ -25,23 +25,42 @@ An ASP.NET Core Web API designed for managing users with robust middleware for l
 ## Project Structure
 
 UserManagementAPI/
+
 ├── Controllers/
+
 │   └── UsersController.cs
+
 │
+
 ├── Middleware/
+
 │   ├── ErrorHandlingMiddleware.cs
+
 │   ├── TokenAuthenticationMiddleware.cs
+
 │   └── LoggingMiddleware.cs
+
 │
+
 ├── Models/
+
 │   └── User.cs
+
 │
+
 ├── Services/
+
 │   └── UserService.cs
+
 │
+
 ├── Program.cs
+
 ├── Startup.cs  (optional, if using Startup-based configuration)
+
 ├── appsettings.json
+
 ├── README.md
+
 └── UserManagementAPI.csproj
 
